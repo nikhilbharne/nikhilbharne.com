@@ -4,7 +4,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import avatarImage from '../assets/images/avatar_circle.png';
 
-
 function Main() {
 
   return (

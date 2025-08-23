@@ -1,0 +1,73 @@
+.tech-stack {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0d;
+    color: #fff;
+    padding: 2rem;
+  
+    &__title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    &__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      max-width: 1200px;
+      width: 100%;
+  
+      @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  
+    &__category {
+      text-align: center;
+    }
+  
+    &__category-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: #00bcd4;
+    }
+  
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+  
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.1);
+        color: #00bcd4;
+      }
+    }
+  
+    &__icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 0.5rem;
+    }
+  
+    &__name {
+      font-size: 0.85rem;
+    }
+  }
+  

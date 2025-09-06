@@ -47,6 +47,7 @@ Live Sites [nikhilbharne.com](https://nikhilbharne.github.io/nikhilbharne.com/).
 
 The page will reload if you make edits, and you will see any lint errors in the console.
 
+
 If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
 
 ## Deployment
